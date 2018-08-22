@@ -38,6 +38,26 @@ r=sqrt(pow(x,2)+pow(y,2)+pow(z,2));
 teta=acos(z/r);
 phi=atan(x/y);
 
+if(x>0){
+printf("Tu coordenada x es positiva \n");
+}
+else if(y>0){
+printf("Tu punto se encuentra en el cuadrante no. 1 \n");
+}
+else if(y<0){
+printf("Tu punto se encuentra en el cuadrante no. 4 \n");
+}
+
+
+if(x<0){
+printf("Tu coordenada x es negativa \n");
+}
+else if(y>0){
+printf("Tu punto se encuentra en el cuadrante no. 2 \n");
+}
+else if(y<0){
+printf("Tu punto se encuentra en el cuadrante no. 3 \n");
+}
 
 printf("La coordenada esférica r es %i \n",r);
 printf("La coordenada esférica φ es %i \n",phi);
